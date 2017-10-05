@@ -1,0 +1,13 @@
+[package]
+authors = ["Victor M. Suarez <svmnotn@gmail.com>"]
+description = "CLI for making star systems"
+license = "MIT"
+name = "potential-system"
+readme = "README.md"
+repository = "https://github.com/svmnotn/potential-system"
+version = "0.1.0"
+
+[dependencies]
+rand = "0.3"
+structopt = "0.1"
+structopt-derive = "0.1"
