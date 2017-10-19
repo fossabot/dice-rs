@@ -3,7 +3,7 @@
 pub struct StarType {
   /// Chance for the star to spawn
   pub chance: f32,
-  
+
   /// Chance for the star to be part of a multy star system
   pub part_multy: f32,
 
