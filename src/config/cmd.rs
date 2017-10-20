@@ -5,6 +5,10 @@ pub struct Opt {
   #[structopt(short = "c", long = "config", default_value = "config.toml")]
   pub config: String,
 
+  /// Specify a comma or newline delimited list of names for Star Systems
+  #[structopt(short = "n", long = "names")]
+  pub name_list: Option<String>,
+
   #[structopt(subcommand)] pub cmd: Option<Command>,
 }
 
