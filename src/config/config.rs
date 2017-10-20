@@ -50,6 +50,7 @@ impl Config {
             rocky: 0.3,
             gas: 0.4,
             belts: 0.2,
+            cloud: 0.9,
             description: "O-type stars are very hot and extremely luminous, \
             with most of their radiated output in the ultraviolet range. \
             These are the rarest of all main-sequence stars. \
@@ -62,6 +63,7 @@ impl Config {
             rocky: 0.35,
             gas: 0.4,
             belts: 0.25,
+            cloud: 0.75,
             description: "B-type stars are very luminous and blue. \
             About 1 in 800 (0.125%) of the main-sequence stars in the solar neighborhood are B-type main-sequence objects.".into()
           },
@@ -72,6 +74,7 @@ impl Config {
             rocky: 0.4,
             gas: 0.5,
             belts: 0.35,
+            cloud: 0.65,
             description: "A-type stars are among the more common naked eye stars, \
             and are white or bluish-white. \
             About 1 in 160 (0.625%) of the main-sequence stars in the solar neighborhood are A-type stars.".into()
@@ -83,6 +86,7 @@ impl Config {
             rocky: 0.45,
             gas: 0.55,
             belts: 0.4,
+            cloud: 0.6,
             description: "F-type stars are white in color. \
             About 1 in 33 (3.03%) of the main-sequence stars in the solar neighborhood are F-type stars".into()
           },
@@ -93,6 +97,7 @@ impl Config {
             rocky: 0.6,
             gas: 0.6,
             belts: 0.2,
+            cloud: 0.55,
             description: "Class G main-sequence stars make up about 7.5%, \
             nearly one in thirteen, of the main-sequence stars in the solar neighborhood.".into()
           },
@@ -103,6 +108,7 @@ impl Config {
             rocky: 0.5,
             gas: 0.4,
             belts: 0.4,
+            cloud: 0.5,
             description: "K-type stars are orangish stars that are slightly cooler than the Sun. \
             They make up about 12%, nearly one in eight, of the main-sequence stars in the solar neighborhood.".into()
           },
@@ -113,6 +119,7 @@ impl Config {
             rocky: 0.8,
             gas: 0.4,
             belts: 0.3,
+            cloud: 0.8,
             description: "Class M stars are by far the most common. \
             About 76% of the main-sequence stars in the solar neighborhood are class M stars. \
             However, class M main-sequence stars (red dwarfs) have such low luminosities that none are bright enough to be seen with the unaided eye, \
@@ -125,6 +132,7 @@ impl Config {
             rocky: 0.25,
             gas: 0.21,
             belts: 0.34,
+            cloud: 0.45,
             description: "Class D (for Degenerate) is the modern classification used for white dwarfs \
             – low-mass stars that are no longer undergoing nuclear fusion and have shrunk to planetary size, slowly cooling down.".into()
           },
@@ -135,6 +143,7 @@ impl Config {
             rocky: 0.2,
             gas: 0.1,
             belts: 0.3,
+            cloud: 0.4,
             description: "A neutron star is the collapsed core of a large star which before collapse would have had a total of between 10 and 29 solar masses. \
             Neutron stars are the smallest and densest stars known to exist. \
             Though neutron stars typically have a radius on the order of 10 kilometres (6.2 mi), \
@@ -149,6 +158,7 @@ impl Config {
             rocky: 0.1,
             gas: 0.09,
             belts: 0.2,
+            cloud: 0.28,
             description: "A black hole is a region of spacetime exhibiting such strong gravitational effects \
             that nothing—not even particles and electromagnetic radiation such as light—can escape from inside it. \
             The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole.".into()

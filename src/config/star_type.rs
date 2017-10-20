@@ -19,5 +19,8 @@ pub struct StarType {
   /// Chance for the star to have asteroid belts
   pub belts: f32,
 
+  /// Chance for the star to have a cloud at the end of the system.
+  pub cloud: f32,
+
   pub description: String,
 }

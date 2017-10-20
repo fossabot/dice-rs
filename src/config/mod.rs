@@ -19,6 +19,9 @@ pub use self::star_type::StarType;
 mod config;
 pub use self::config::Config;
 
+mod name_list;
+pub use self::name_list::DEFAULT_NAME_LIST;
+
 pub use std::collections::BTreeMap as Map;
 
 pub type StarTypes = Map<String, StarType>;
