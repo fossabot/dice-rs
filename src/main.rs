@@ -6,9 +6,14 @@ extern crate structopt;
 extern crate structopt_derive;
 extern crate toml;
 
-pub(crate) fn gen(max: u32) -> u32 {
+pub(crate) fn dice(size: u32) -> u32 {
   use rand::{thread_rng, Rng};
-  thread_rng().gen_range(0, max)
+  thread_rng().gen_range(0, size)
+}
+
+pub(crate) fn gen(min: u32, max: u32) -> u32 {
+  use rand::{thread_rng, Rng};
+  thread_rng().gen_range(min, max)
 }
 
 pub mod system_gen;

@@ -22,5 +22,9 @@ pub struct StarType {
   /// Chance for the star to have a cloud at the end of the system.
   pub cloud: f32,
 
+  /// The name of the Star class
+  pub class: String,
+
+  /// The description of the Star class
   pub description: String,
 }

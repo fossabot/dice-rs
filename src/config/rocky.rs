@@ -13,6 +13,7 @@ impl Rocky {
   fn default_belt() -> f32 {
     0.2
   }
+
   fn default_moon() -> f32 {
     0.4
   }
