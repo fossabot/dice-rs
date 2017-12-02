@@ -1,3 +1,3 @@
 # potential-system
 
-CLI for making star systems
+A library for all your dice rolling needs.

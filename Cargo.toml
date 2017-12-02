@@ -1,6 +1,6 @@
 [package]
 authors = ["Victor M. Suarez <svmnotn@gmail.com>"]
-description = "CLI for making star systems"
+description = "A library for all your dice rolling needs."
 license = "MIT"
 name = "potential-system"
 readme = "README.md"
@@ -8,9 +8,4 @@ repository = "https://github.com/svmnotn/potential-system"
 version = "0.1.0"
 
 [dependencies]
-rand = "0.3"
-structopt = "0.1"
-structopt-derive = "0.1"
-serde = "1.0"
-serde_derive = "1.0"
-toml = "0.4"
+rand = "*"
