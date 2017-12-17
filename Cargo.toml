@@ -2,9 +2,9 @@
 authors = ["Victor M. Suarez <svmnotn@gmail.com>"]
 description = "A library for all your dice rolling needs."
 license = "MIT"
-name = "potential-system"
+name = "dice-rs"
 readme = "README.md"
-repository = "https://github.com/svmnotn/potential-system"
+repository = "https://github.com/svmnotn/dice-rs"
 version = "0.1.0"
 
 [dependencies]
